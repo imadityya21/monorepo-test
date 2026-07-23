@@ -1,0 +1,8 @@
+---
+version: 1
+service:
+  name: OPS-36 FOO
+  description: Monorepo component FOO. Auto-linked to this repo at packages/foo,
+    so it should only surface code issues under packages/foo/.
+  tier: tier_3
+  lifecycle: alpha

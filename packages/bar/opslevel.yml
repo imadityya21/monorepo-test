@@ -1,0 +1,8 @@
+---
+version: 1
+service:
+  name: OPS-36 BAR
+  description: Monorepo component BAR. Auto-linked to this repo at packages/bar,
+    so it should only surface code issues under packages/bar/.
+  tier: tier_3
+  lifecycle: alpha
