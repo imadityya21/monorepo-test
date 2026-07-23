@@ -1,0 +1,9 @@
+{
+  "name": "@ops36/bar",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Component BAR in the monorepo. Has a different vulnerable dependency so Dependabot raises an alert whose manifest_path is packages/bar/package.json.",
+  "dependencies": {
+    "lodash": "4.17.20"
+  }
+}

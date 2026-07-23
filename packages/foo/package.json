@@ -1,0 +1,9 @@
+{
+  "name": "@ops36/foo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Component FOO in the monorepo. Has a vulnerable dependency so Dependabot raises an alert whose manifest_path is packages/foo/package.json.",
+  "dependencies": {
+    "ip": "2.0.0"
+  }
+}
