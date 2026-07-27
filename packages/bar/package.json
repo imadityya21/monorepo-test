@@ -2,8 +2,11 @@
   "name": "@ops36/bar",
   "version": "1.0.0",
   "private": true,
-  "description": "Component BAR in the monorepo. Has a different vulnerable dependency so Dependabot raises an alert whose manifest_path is packages/bar/package.json.",
+  "description": "Component BAR in the monorepo. Pins several known-vulnerable dependencies (different from FOO) so Dependabot raises multiple alerts whose manifest_path is packages/bar/package.json.",
   "dependencies": {
-    "lodash": "4.17.20"
+    "axios": "0.21.0",
+    "handlebars": "4.0.11",
+    "marked": "0.3.6",
+    "moment": "2.29.1"
   }
 }

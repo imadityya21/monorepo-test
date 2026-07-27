@@ -2,8 +2,11 @@
   "name": "@ops36/foo",
   "version": "1.0.0",
   "private": true,
-  "description": "Component FOO in the monorepo. Has a vulnerable dependency so Dependabot raises an alert whose manifest_path is packages/foo/package.json.",
+  "description": "Component FOO in the monorepo. Pins several known-vulnerable dependencies so Dependabot raises multiple alerts whose manifest_path is packages/foo/package.json.",
   "dependencies": {
-    "ip": "2.0.0"
+    "ip": "1.1.5",
+    "lodash": "4.17.11",
+    "minimist": "1.2.0",
+    "ejs": "2.7.4"
   }
 }
