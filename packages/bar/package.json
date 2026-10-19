@@ -5,7 +5,7 @@
   "description": "Component BAR in the monorepo. Pins several known-vulnerable dependencies (different from FOO) so Dependabot raises multiple alerts whose manifest_path is packages/bar/package.json.",
   "dependencies": {
     "axios": "0.21.0",
-    "handlebars": "4.0.11",
+    "handlebars": "4.7.10",
     "marked": "0.3.6",
     "moment": "2.29.1"
   }
